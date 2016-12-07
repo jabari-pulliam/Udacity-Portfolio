@@ -2,6 +2,9 @@
 /*
 Header font = font-family: 'Julius Sans One', sans-serif;
  */
+img {
+    max-width: 100%;
+}
 
 .logo {
     margin: 5px;
@@ -38,10 +41,17 @@ header {
 }
 
 .hero img {
-    width: 100%;
+    max-width: 100%;
 }
 
-.featured_title h2 {
+.featured-title h2 {
     float: left;
     font-size: 20px;
 }
+
+.featured-project h3 {
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+

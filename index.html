@@ -26,16 +26,34 @@
         <section class="hero row">
             <div class="col-xs-12">
                 <picture>
-                    <source media="(max-width: 800px)" srcset="images/hero-code-800_1x_medium.jpg">
-                    <source media="(min-width: 801px)" srcset="images/hero-code-800_2x_large.jpg">
+                    <source media="(max-width: 800px)" srcset="images/hero-code-800_1x_large.jpg">
+                    <source media="(min-width: 801px)" srcset="images/hero-code-1600_2x_large.jpg">
                     <img src="images_src/hero-code.jpg">
                 </picture>
             </div>
         </section>
 
-        <section class="row featured">
-            <div class="featured_title col-xs-12"><h2>Featured Work</h2></div>
-
+        <section class="featured">
+            <div class="row">
+                <div class="featured-title col-xs-12"><h2>Featured Work</h2></div>
+            </div>
+            <div class="row">
+                <div class="featured-project col-xs-12">
+                    <div class="project-image">
+                        <picture>
+                            <source media="(max-width: 800px)"
+                                    srcset="images/earth-800_1x_large.jpg 1x, images/earth-1600_2x_large.jpg 2x">
+                            <source media="(min-width: 801px)"
+                                    srcset="images/earth-1600_2x_large.jpg">
+                            <img src="images/earth-1600_2x_large.jpg">
+                        </picture>
+                        <h3 class="text-center text-uppercase">Worldly</h3>
+                        <p class="project-link text-center">
+                            <a href="https://github.com/theeru/worldly">https://github.com/theeru/worldly</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </div>
