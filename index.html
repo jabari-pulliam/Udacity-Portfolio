@@ -13,26 +13,31 @@
 <div class="container">
     <header>
         <div class="row header">
-            <div class="logo col-xs-4">
-                <img src="images/udacity-logo.svg">
+            <div class="logo col-xs-3">
+                <img src="images/sank_lg.svg">
             </div>
-            <div class="title col-xs-7">
+            <div class="title col-xs-8">
                 <h1>Jabari Pulliam</h1>
                 <h2>Full-Stack Ninja</h2>
             </div>
         </div>
     </header>
-    <div class="hero">
-        <picture>
-            <img src="images/hero-code.jpg">
-        </picture>
-    </div>
+    <main>
+        <section class="hero row">
+            <div class="col-xs-12">
+                <picture>
+                    <source media="(max-width: 800px)" srcset="images/hero-code-800_1x_medium.jpg">
+                    <source media="(min-width: 801px)" srcset="images/hero-code-800_2x_large.jpg">
+                    <img src="images_src/hero-code.jpg">
+                </picture>
+            </div>
+        </section>
 
-    <div class="row featured">
-        <div class="featured_title col-xs-12">
-            <h2>Featured Work</h2>
-        </div>
-    </div>
+        <section class="row featured">
+            <div class="featured_title col-xs-12"><h2>Featured Work</h2></div>
+
+        </section>
+    </main>
 </div>
 </body>
 </html>

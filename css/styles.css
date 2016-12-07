@@ -7,6 +7,10 @@ Header font = font-family: 'Julius Sans One', sans-serif;
     margin: 5px;
 }
 
+.logo img {
+    width: 100%;
+}
+
 .title h1, h2 {
     font-family: 'Julius Sans One', sans-serif;
     float: right;
