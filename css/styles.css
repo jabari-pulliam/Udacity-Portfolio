@@ -1,0 +1,43 @@
+
+/*
+Header font = font-family: 'Julius Sans One', sans-serif;
+ */
+
+.logo {
+    margin: 5px;
+}
+
+.title h1, h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    float: right;
+}
+
+.title h1 {
+    font-size: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.title h2 {
+    font-size: 18px;
+    padding-top: 0.2em;
+    margin-top: 0.2em;
+}
+
+.header {
+    margin-bottom: 5px;
+}
+
+header {
+    border-bottom: 2px solid #7d97ad;
+    margin-bottom: 10px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.featured_title h2 {
+    float: left;
+    font-size: 20px;
+}
