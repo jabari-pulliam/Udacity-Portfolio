@@ -1,17 +1,8 @@
-
-/*
-Header font = font-family: 'Julius Sans One', sans-serif;
- */
-
 .logo {
-    margin: 5px;
+    padding: 7px;
 }
 
-.logo img {
-    width: 100%;
-}
-
-.title h1, h2 {
+.title {
     font-family: 'Julius Sans One', sans-serif;
     float: right;
 }
@@ -52,3 +43,12 @@ header {
     margin-bottom: 0.2em;
 }
 
+@media screen and (min-width: 800px) {
+    .title h1 {
+        font-size: 48px;
+    }
+
+    .title h2 {
+        font-size: 36px;
+    }
+}
