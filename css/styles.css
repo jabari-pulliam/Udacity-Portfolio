@@ -1,5 +1,9 @@
 .logo {
-    padding: 7px;
+    padding: 0.8em;
+}
+
+.logo img {
+    max-width: 80%;
 }
 
 .title {
@@ -24,7 +28,7 @@
 }
 
 header {
-    border-bottom: 2px solid #7d97ad;
+    border-bottom: 3px solid #7d97ad;
     margin-bottom: 10px;
 }
 
@@ -34,7 +38,8 @@ header {
 
 .featured-title h2 {
     float: left;
-    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 24px;
 }
 
 .featured-project h3 {
@@ -43,12 +48,42 @@ header {
     margin-bottom: 0.2em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 420px) {
+    .title h1 {
+        font-size: 36px;
+    }
+
+    .title h2 {
+        font-size: 24px;
+    }
+
+    .logo img {
+        max-width: 60%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .logo img {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
     .title h1 {
         font-size: 48px;
     }
 
     .title h2 {
         font-size: 36px;
+    }
+
+    .logo img {
+        max-width: 75%;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .logo img {
+        max-width: 60%;
     }
 }
